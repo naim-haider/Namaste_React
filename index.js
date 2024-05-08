@@ -13,5 +13,11 @@ const content = React.createElement(
 );
 
 const heading = React.createElement("h1", {}, "Hello world from react");
+
+const jsxContent = <h1>Namaste React from JSX</h1>;
+
+const FunctionalComponent = () => {
+  return <h1>Namaste React from functionalComponent</h1>;
+};
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(content);
+root.render(<FunctionalComponent />);

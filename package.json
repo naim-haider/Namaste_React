@@ -4,7 +4,9 @@
   "description": "this is namaste react course",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": " parcel index.html",
+    "build":"parcel build index.html"
   },
   "author": "naimhaider",
   "license": "ISC",
